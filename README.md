@@ -1,5 +1,5 @@
 # Proyecto-Final-Integrador-SQL-Kodigo
-# 🛒 Ecommerce Data Warehouse & Business Intelligence
+# Ecommerce Data Warehouse & Business Intelligence
 
 Proyecto de **Data Warehouse y Business Intelligence** desarrollado a partir del dataset **Online Retail**, con el objetivo de transformar datos transaccionales de comercio electrónico en información estructurada para análisis y toma de decisiones.
 
@@ -7,7 +7,7 @@ El proyecto incluye las etapas de **Staging, ETL, modelado dimensional, optimiza
 
 ---
 
-## 📊 Fuente de datos
+##  Fuente de datos
 
 El proyecto utiliza el dataset **Online Retail**, publicado originalmente por el **UCI Machine Learning Repository** y disponible también en Kaggle.
 
@@ -30,7 +30,7 @@ La información incluye datos como:
 
 ---
 
-# 🎯 Objetivo del proyecto
+#  Objetivo del proyecto
 
 El objetivo principal es construir una solución de análisis empresarial que permita transformar datos transaccionales en información útil para la toma de decisiones.
 
@@ -46,7 +46,7 @@ Para ello se desarrolló un flujo compuesto por:
 
 ---
 
-# 🏗️ Arquitectura del proyecto
+#  Arquitectura del proyecto
 
 El flujo general del proyecto puede representarse de la siguiente manera:
 
@@ -76,7 +76,7 @@ Dataset Online Retail
 
 ---
 
-# 🗂️ Modelo dimensional
+#  Modelo dimensional
 
 Se implementó un modelo de datos tipo **Star Schema**, compuesto por una tabla de hechos y tres dimensiones.
 
@@ -121,7 +121,7 @@ Permite analizar las ventas temporalmente:
 
 ---
 
-# 🔄 Proceso ETL
+#  Proceso ETL
 
 El proceso ETL se divide en diferentes etapas.
 
@@ -158,7 +158,7 @@ Las relaciones se realizan mediante **llaves subrogadas**, permitiendo separar l
 
 ---
 
-# ⚡ Optimización de consultas
+#  Optimización de consultas
 
 Como parte del proyecto se realizó una prueba de optimización sobre la tabla:
 
@@ -193,7 +193,7 @@ permitiendo acceder directamente a los registros relacionados con el cliente con
 
 ---
 
-# 📈 Resultado de la optimización
+#  Resultado de la optimización
 
 Los resultados obtenidos mediante `EXPLAIN ANALYZE` fueron:
 
@@ -212,7 +212,7 @@ Este resultado demuestra la importancia de utilizar índices adecuados para cons
 
 ---
 
-# 📊 Power BI
+#  Power BI
 
 Los datos procesados en el Data Warehouse fueron conectados posteriormente con **Power BI** para construir un dashboard de Business Intelligence.
 
@@ -233,7 +233,7 @@ El objetivo del dashboard es convertir los datos procesados mediante SQL en info
 
 ---
 
-# 🧰 Tecnologías utilizadas
+#  Tecnologías utilizadas
 
 | Tecnología      | Utilización                           |
 | --------------- | ------------------------------------- |
@@ -245,7 +245,7 @@ El objetivo del dashboard es convertir los datos procesados mediante SQL en info
 
 ---
 
-# 📁 Estructura sugerida del proyecto
+#  Estructura sugerida del proyecto
 
 ```text
 ecommerce-datawarehouse/
@@ -264,7 +264,7 @@ ecommerce-datawarehouse/
 
 ---
 
-# 🚀 Ejecución del proyecto
+#  Ejecución del proyecto
 
 ### 1. Crear el esquema
 
@@ -307,7 +307,7 @@ Conectar Power BI con el Data Warehouse y utilizar las tablas dimensionales y la
 
 ---
 
-# ✅ Conclusiones
+#  Conclusiones
 
 El proyecto permitió implementar un flujo completo de **Data Warehouse y Business Intelligence**, comenzando desde datos transaccionales hasta llegar a una solución orientada al análisis empresarial.
 
@@ -319,7 +319,7 @@ Finalmente, la integración con Power BI permitió convertir la información alm
 
 ---
 
-## 👨‍💻 Proyecto académico
+## Proyecto académico
 
 **Tema:** Data Warehouse, ETL, Optimización SQL y Business Intelligence
 
